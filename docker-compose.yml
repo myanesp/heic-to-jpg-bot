@@ -1,0 +1,6 @@
+services:
+  heic-to-jpg-bot:
+    image: myanesp/heic-jpg-bot
+    container_name: heic-jpg-bot
+    environment:
+      - TELEGRAM_BOT_TOKEN=xxxxx:xxxx
